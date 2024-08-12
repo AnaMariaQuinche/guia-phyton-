@@ -1,0 +1,2 @@
+saluda="hola mundo"
+print (saluda)
