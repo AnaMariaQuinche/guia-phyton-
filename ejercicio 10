@@ -1,0 +1,8 @@
+precio = 3.49
+descuento = 0.6
+num_barras = int(input("introduce el numeroso de barras vendidas que no son del dia: "))
+precio_descuento = precio * (1 - descuento)
+costo_total = num_barras * precio_descuento
+print(f"precio de una barra de pan: ${precio:2f}")
+print(f"descuento por no ser fresca ({descuento * 100:0f}%)")
+print(f"costo total: ${costo_total:2f}")
