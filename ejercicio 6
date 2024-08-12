@@ -1,0 +1,4 @@
+horas_trabajadas = float (input("¿cuantas horas has trabajado?"))
+costo_por_hora = float (input("¿cuanto es el costo por hora?"))
+pago = horas_trabajadas*costo_por_hora
+print (f"tu pago es:{pago}pesos")
