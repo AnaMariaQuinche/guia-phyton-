@@ -1,0 +1,7 @@
+dividendo=float(input("introduce el dividendo"))
+divisor=float(input("introduce el divisor"))
+if divisor ==0:
+  print("error:el divisor no puede ser cero")
+else:
+  division = dividendo/divisor
+  print ("la division es", division)
